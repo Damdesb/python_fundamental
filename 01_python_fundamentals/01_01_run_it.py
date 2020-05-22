@@ -14,3 +14,8 @@
 	- Calculate how many seconds are in a year.
 
 '''
+# write a script
+script = "hello world"
+# print script
+print(script)
+
