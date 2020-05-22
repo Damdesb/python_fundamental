@@ -7,3 +7,9 @@ Letter input: o
 Result: 4
 
 '''
+#get a sentence (sentence)
+sentence = input("write a sentence :")
+#get a letter (letter)
+letter = input("select a letter")
+#index of letter in string (index)
+print(sentence.count(letter))

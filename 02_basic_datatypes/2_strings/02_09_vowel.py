@@ -6,3 +6,8 @@ CHALLENGE: Can you change the script so that it counts the occurrence of each in
            in the string and print a count for each of them?
 
 '''
+#get a sentence from user (sentence)
+sentence = input("write a sentence")
+
+
+Come back to it later!!!!!!
