@@ -9,3 +9,8 @@ that we haven't looked at yet. See if you can figure it out, otherwise
 come back to this task after you have learned about loops)
 
 '''
+
+l = []
+user_numbers = int(input("enter number of elements : "))
+l.append(user_numbers)
+print(l)
