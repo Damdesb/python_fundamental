@@ -10,7 +10,22 @@ come back to this task after you have learned about loops)
 
 '''
 
-l = []
-user_numbers = int(input("enter number of elements : "))
-l.append(user_numbers)
-print(l)
+
+numbers_string = input("enter 10 numbers :")
+user_numbers = numbers_string.split()
+numbers = []
+for user_number in user_numbers:
+    number_int = int(user_number)
+    numbers.append(number_int)
+total = sum(numbers)
+print(total)
+
+#
+#print(total)
+#print(user_numbers)
+# m = max(user_numbers)
+# print(m)
+
+
+
+

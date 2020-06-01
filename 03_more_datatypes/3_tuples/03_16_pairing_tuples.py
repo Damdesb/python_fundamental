@@ -11,3 +11,19 @@ Note: This lab might be challenging! Make sure to discuss it with your mentor
 or chat about it on our forum.
 
 '''
+numbers_string = input("enter a list of numbers : ")
+numbers_list = numbers_string.split()
+list_of_numbers = []
+for number in numbers_list:
+    number_int = int(number)
+    list_of_numbers.append(number_int)
+    print(list_of_numbers)
+#sort the list of numbers
+list_of_numbers.sort()
+print(list_of_numbers)
+#sort the numbers in tuples of 2 in a list
+new_list = []
+
+
+
+

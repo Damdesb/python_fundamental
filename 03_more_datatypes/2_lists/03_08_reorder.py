@@ -7,3 +7,9 @@ Example input:  1,2,3,4,5,6,7,8,9,10
 Example output: 2,4,6,8,10,9,7,5,3,1
 
 '''
+user_numbers = input("write 10 numbers : ")
+list_of_numbers = user_numbers.split(" ")
+print(list_of_numbers[1], list_of_numbers[3], list_of_numbers[5], list_of_numbers[7],list_of_numbers[9],list_of_numbers[8],list_of_numbers[6],list_of_numbers[4],list_of_numbers[2], list_of_numbers[0])
+
+
+

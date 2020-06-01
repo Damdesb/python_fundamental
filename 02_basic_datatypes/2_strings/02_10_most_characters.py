@@ -12,10 +12,16 @@ CHALLENGE: Can you edit to script to print only the string with the most charact
 
 '''
 #get user input
-word = input("write 3 words separated by a comma")
-list = word.split(",")
-for info in list:
-    print(len(info),info)
+words_of_user = input("write 3 words separated by a comma")
+words = words_of_user.split(",")
+for word in words:
+    lenght = len(word)
+    result = str(lenght) + ", " + word
+    print(result)
+
+
+
+
 
 
 

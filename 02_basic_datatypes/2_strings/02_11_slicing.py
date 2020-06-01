@@ -7,8 +7,8 @@ translated to pig latin by moving the first letter to the end, followed by "ay".
 For example: ryan -> yanray, caden -> adencay
 
 '''
-name = input("write a names")
-new_name = name[1:]+name[0]+"ay"
+name = input("write a name : ")
+new_name = name[1:] + name[0] + "ay"
 print(new_name)
 
 
