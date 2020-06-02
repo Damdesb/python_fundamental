@@ -6,3 +6,9 @@ user_input = "hello"
 result = {"h": 1, "e": 1, "l": 2, "o": 1}
 
 '''
+
+user_input = input("insert a script : ")
+my_dict = {}
+for i in user_input:
+    my_dict[i] = user_input.count(i)
+    print(my_dict)

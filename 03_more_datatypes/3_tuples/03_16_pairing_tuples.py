@@ -22,7 +22,27 @@ for number in numbers_list:
 list_of_numbers.sort()
 print(list_of_numbers)
 #sort the numbers in tuples of 2 in a list
-new_list = []
+size_list = len(list_of_numbers)-1
+print(size_list)
+for i in range(size_list):
+    if i < size_list:
+        first_second_element = (list_of_numbers[0:2])
+        i = tuple(first_second_element)
+        print(i)
+
+
+
+
+        """first_second_element = (list_of_numbers[:2])
+        i = tuple(first_second_element)
+        new_list = []
+        new_list.append(i)
+        print(new_list)"""
+
+
+
+
+
 
 
 
