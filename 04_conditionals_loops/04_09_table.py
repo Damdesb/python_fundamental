@@ -14,15 +14,12 @@ list_b = []
 
 for i in range(numb_a):
     print(i, end=' ')
+
 for j in range(10, numb_b):
     list_b.append(j)
-    stop = len(list_b)
-    for k in range(10,numb_b,10):
-        for m in range(10,20):
-            this_elm = m+k
-            if this_elm < stop:
-                slice = str(list_b[this_elm])
-                print(slice.ljust(10)),
+    for k in range(0, len(list_b), 10):
+        print(list_b[k: k + 10])
+
 print()
 
 
