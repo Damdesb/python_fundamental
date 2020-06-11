@@ -9,5 +9,16 @@ For example if n is 3, you print:
 ***
 
 '''
-
 n = 5
+row = 0
+while row < n:
+    star = row + 1
+    while star > 0:
+        print("*", end=" ")
+        star = star - 1
+    row = row + 1
+    print()
+
+
+
+

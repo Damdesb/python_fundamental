@@ -22,28 +22,18 @@ for number in numbers_list:
 list_of_numbers.sort()
 print(list_of_numbers)
 #sort the numbers in tuples of 2 in a list
+
+
 size_list = len(list_of_numbers)-1
 print(size_list)
+tuples_of_two = []
 for i in range(size_list):
     if i < size_list:
-        first_second_element = (list_of_numbers[0:2])
-        i = tuple(first_second_element)
-        print(i)
+        new_tuple = list_of_numbers[i], list_of_numbers[i+1]
+    for new_tuple in list_of_numbers:
+        tuples_of_two.append(new_tuple)
 
 
-
-
-        """first_second_element = (list_of_numbers[:2])
-        i = tuple(first_second_element)
-        new_list = []
-        new_list.append(i)
-        print(new_list)"""
-
-
-
-
-
-
-
+print(tuples_of_two)
 
 
