@@ -8,33 +8,11 @@ Use a loop to print the following table to the console:
  40 41 42 43 44 45 46 47 48 49
 
 '''
-numb_a = 10
-numb_b = 50
-list_b = []
 
-for i in range(numb_a):
-    print(i, end=' ')
+for i in range(0, 50):
+    if i % 10 == 0:
+        print("\n")
 
-for j in range(10, numb_b):
-    list_b.append(j)
-    for k in range(0, len(list_b), 10):
-        print(list_b[k: k + 10])
-
-print()
+    print(i, end=" ")
 
 
-
-
-
-'''numb = 50
-row = 0
-new_list = []
-end_list = len(new_list)
-for j in range(0, 10):
-    print(j, end=" ")
-print()
-for h in range(10, numb):
-    new_list.append(h)
-for k in range(end_list):
-        print(k, end=" ")
-print(end_list)'''

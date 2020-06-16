@@ -25,3 +25,13 @@ office = [
     {"full_name": "Creed Bratton", "item": "mung beans"},
     {"full_name": "Darryl Philbin", "item": "forklift"},
 ]
+
+for item in office:
+    name = item["full_name"]
+    name_split = name.split()
+    capital_last_name = name_split[1].upper()
+    result_name = capital_last_name + ", " + name_split[0]
+
+    office_supply = item["item"]
+
+    print(f'{result_name:<20}\t{office_supply}')

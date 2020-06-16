@@ -9,4 +9,5 @@ my_dict = {}
 n = range(1, 11)
 for i in n:
     my_dict[i] = i*i
-    print(("result = "), my_dict)
+
+print(("result = "), my_dict)

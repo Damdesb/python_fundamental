@@ -11,4 +11,5 @@ user_input = input("insert a script : ")
 my_dict = {}
 for i in user_input:
     my_dict[i] = user_input.count(i)
-    print(my_dict)
+
+print(my_dict)
